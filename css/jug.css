@@ -44,20 +44,16 @@ div {
 	margin-bottom: auto;
 }
 
-#cli {
-	position: absolute;
-	bottom: 0;
-	left: 15px;
-	display: none;
-	color: #30bf09;
+#main {
+	color: #FFF;
 	font-family: Arial;
-	font-weight: bold;
 	font-size: 12px;
 }
 
 a {
 	text-decoration: none;
-	color: #3E2E2E;
+	font-weight: bold;
+	color: #FFFCCC;
 }
 
 #address {
