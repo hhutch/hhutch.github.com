@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Biergarten';
-  src: url('http://hunter.h.utch.in/son/css/biergarten.eot');  /* IE6+ */
+  src: url('biergarten.eot');  /* IE6+ */
   src: local('â˜º'), 
         url('biergarten.ttf') format('truetype');  /* Saf3+,Chrome,Opera10+ */
 }
@@ -8,14 +8,14 @@
   font-family: 'NerdProof';
   src: url('NerdProof.eot');  /* IE6+ */
   src: local('☺'), 
-        url('http://hunter.h.utch.in/son/css/NerdProof.woff') format('woff'),  /* FF3.6 */
+        url('NerdProof.woff') format('woff'),  /* FF3.6 */
         url('NerdProof.ttf') format('truetype');  /* Saf3+,Chrome,FF3.5,Opera10+ */
 }
 @font-face {
   font-family: '5x5dots';
   src: url('5x5dots.eot');  /* IE6+ */
   src: local('☺'), 
-        url('http://hunter.h.utch.in/son/css/5x5dots.woff') format('woff'),  /* FF3.6 */
+        url('5x5dots.woff') format('woff'),  /* FF3.6 */
         url('5x5dots.ttf') format('truetype');  /* Saf3+,Chrome,FF3.5,Opera10+ */
 }
 
