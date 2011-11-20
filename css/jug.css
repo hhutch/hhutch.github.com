@@ -28,16 +28,12 @@ body, html {
 }
 body {
 	color: #3E2E2E;
-	/* background: url(img/hgun_bg.jpg) no-repeat #0f0b0b; 
-	background-position: bottom right;
-	background-attachment: fixed; */
-	margin-top: -21px;
 	background: #0f0b0b; 
 	overflow-y: hidden;
 }
 
 div {
-	width: 400px;
+	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: auto;
