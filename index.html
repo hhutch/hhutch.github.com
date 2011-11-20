@@ -1,0 +1,20 @@
+---
+layout: default
+title: Hunter Hutchinson
+---
+
+<div id="home">  
+  <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>Projects</h1>
+  <ul class="posts">
+    <li><a href="https://github.com/hhutch/cljs-closure-demos">CLJS Closure Demos</a>: Google Closure API Demos rewritten in Clojurescript</li>
+    <li><a href="https://github.com/hhutch/clojurescript-nodejs-demos">Clojurescript NodeJs Demos</a>: Experiments in Clojurescript + NodeJs Interop</li>
+  </ul>
+
+</div>
