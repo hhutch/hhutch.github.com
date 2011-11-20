@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Biergarten';
+  src: url('http://hunter.h.utch.in/son/css/biergarten.eot');  /* IE6+ */
+  src: local('â˜º'), 
+        url('biergarten.ttf') format('truetype');  /* Saf3+,Chrome,Opera10+ */
+}
+@font-face {
+  font-family: 'NerdProof';
+  src: url('NerdProof.eot');  /* IE6+ */
+  src: local('☺'), 
+        url('http://hunter.h.utch.in/son/css/NerdProof.woff') format('woff'),  /* FF3.6 */
+        url('NerdProof.ttf') format('truetype');  /* Saf3+,Chrome,FF3.5,Opera10+ */
+}
+@font-face {
+  font-family: '5x5dots';
+  src: url('5x5dots.eot');  /* IE6+ */
+  src: local('☺'), 
+        url('http://hunter.h.utch.in/son/css/5x5dots.woff') format('woff'),  /* FF3.6 */
+        url('5x5dots.ttf') format('truetype');  /* Saf3+,Chrome,FF3.5,Opera10+ */
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: none;
+}
+body {
+	color: #3E2E2E;
+	/* background: url(img/hgun_bg.jpg) no-repeat #0f0b0b; 
+	background-position: bottom right;
+	background-attachment: fixed; */
+	background: #0f0b0b; 
+	overflow-y: hidden;
+}
+
+div {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#cli {
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+	display: none;
+	color: #30bf09;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #3E2E2E;
+}
+
+#address {
+	bottom: 0;
+	left:10px;
+	position:absolute;
+	padding-bottom: 55px;
+}
+#address a:visited,
+#address a {
+	color:#FFFFFF;
+	font-family:"5x5dots";
+	font-size:11px;
+}
+#address ul {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0 auto 0 auto;
+	margin: 0 auto 0 auto;
+	-moz-transform: rotate(90deg);  /* FF3.5+ */
+	-o-transform: rotate(90deg);  /* Opera 10.5 */
+	-webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+	filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', 
+	  M11=6.123233995736766e-17, M12=-1, M21=1, M22=6.123233995736766e-17); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', 
+	  M11=6.123233995736766e-17, M12=-1, M21=1, M22=6.123233995736766e-17)"; /* IE8 */
+	zoom: 1;
+}
+
+#name  {
+	color: #FFF;
+	font-family: "NerdProof";
+	position: relative;
+	top: 261px;
+	left: 78px;
+	font-size: 35px;
+	-moz-transform: rotate(24.0deg);  /* FF3.5+ */
+	-o-transform: rotate(24.0deg);  /* Opera 10.5 */
+	-webkit-transform: rotate(24.0deg);  /* Saf3.1+, Chrome */
+	filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', 
+	  M11=0.9135454576426009, M12=-0.40673664307580015, M21=0.40673664307580015, M22=0.9135454576426009); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', 
+	  M11=0.9135454576426009, M12=-0.40673664307580015, M21=0.40673664307580015, M22=0.9135454576426009)"; /* IE8 */
+	zoom: 1;
+}
+  
+#left {
+	background: #FFF;
+	width: 200px;
+	height: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#jug {
+	background: transparent url(img/grandaddy-jug.white.png) no-repeat top left;
+	width: 300px;
+	height: 450px;
+	position: relative;
+	z-index: 10;
+}
